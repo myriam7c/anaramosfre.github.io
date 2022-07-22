@@ -1,0 +1,52 @@
+body {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  /* Hero Section */
+  
+  #Hero-Section {
+    background-image: url("../img/foto.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+  }
+  
+  /* Mis trabajos */
+  
+  #Mis-trabajos .image-top {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+  }
+  
+  /* Contacto */
+  
+  #Contacto form label {
+    font-weight: 700;
+    color: #373a3c;
+  }
+  
+  @media (max-width: 768px) {
+    #Contacto form label {
+      font-weight: 400;
+    }
+  
+    .navbar-brand{
+      width: 100px;
+    }
+  
+  }
+  
+  .fondo {
+    background-image:url(/anaramosfre.github.io/assets/img/maik-jonietz-_yMciiStJyY-unsplash.jpg);
+    background-size: cover;
+
+}
+
+.card img {
+    height: 450px;
+    object-fit: cover;
+    object-position: top;
+}
